@@ -1,5 +1,7 @@
 /*  your css code here. If applicable */
-.lineDiv{
+#line{
+    height: 70vh;
+    position: relative;
     height: 2px;
     width: 200px;
     background-color: black;
@@ -10,7 +12,6 @@
     transform: rotate(-225deg);
     transition: all 5s ease-in;
     /* transition: all 1s ease 20ms; */
-    animation: name duration timing-function delay iteration-count direction fill-mode;
 }
 
 @keyframes spin{
@@ -21,6 +22,5 @@
 
 .line-box{
     height: 70vh;
-    position: relative;
-
+   
 }
