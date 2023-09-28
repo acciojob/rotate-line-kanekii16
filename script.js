@@ -1,9 +1,9 @@
 //your JS code here. If required.
 
 
-Cypress.on('uncaught:exception', (err, runnable) => {
-    return false;
-  });
+// Cypress.on('uncaught:exception', (err, runnable) => {
+//     return false;
+//   });
   
 
 const  line_box = document.getElementsByClassName("line-box")[0];
